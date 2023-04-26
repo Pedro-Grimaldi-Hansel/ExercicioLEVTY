@@ -13,7 +13,6 @@ body {
   background-color: #0E1116;
   font-size: 16px;
 }
-
 html body p,
 html body label,
 html body input,
@@ -23,19 +22,16 @@ html body textarea {
   font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
 }
-
 html body a {
   color: inherit;
   text-decoration: solid underline #FFFFFF 0.5px;
 }
-
 html body h1 {
   font-family: 'Source Code Pro', 'Montserrat';
   font-weight: 300;
   font-display: swap;
   font-size: 40px;
 }
-
 nav{
   width: 100%;
   height: 64px;
@@ -43,6 +39,7 @@ nav{
   justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 64px;
 }
 .menu{
   width: 90%;
@@ -68,25 +65,24 @@ nav{
   flex-direction: column;
 }
 .Home_top{
-        height: 300px;
-        background-color: #374A67;
-        border-radius: 0px 0px 150px 0px;
-        display: flex;
-        justify-content: center;
-        width: 100%;
+  height: 250px;
+  background-color: #374A67;     
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .foto{
-          width: 300px;
-          height: 300px;
-          border-radius: 50px;
-          margin-top: 32px;
-          box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  margin-bottom: 25px;
+  margin-top: -25px;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
 }
 .meio{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
 }
 .text{
   text-align: center;
@@ -96,7 +92,6 @@ nav{
   display: flex;
   flex-direction: column;
   width: 60%;
-
 }
 .githubStats{
   display: flex;
@@ -114,11 +109,51 @@ nav{
   margin-bottom: 32px;
   margin-top: 16px;
 }
-
 hr{
   width:60%;
   border: none;
   height: 2px;
   background-image: linear-gradient(to right, #0E1116, rgba(55, 74, 103, 0.5), rgba(55, 74, 103, 1), rgba(55, 74, 103, 0.5), #0E1116);
 }
+.Contato{  
+  text-align: center;
+}
+h2{
+  font-size: 24px;
+  padding-left: 20px; 
+  padding-right: 20px; 
+  margin-bottom: 0px;
+  margin-top: 16px;
+  font-family: 'Source Code Pro', 'Montserrat';
+}
+p{
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 8px;
+}
+.conth1{
+  font-size: 48px;
+}
 
+.CardContato{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-radius: 16px;
+  flex-wrap: wrap;
+}
+.nomediv{
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.nome{
+  font-family: 'Source Code Pro', 'Montserrat';
+  font-size: 24px;
+}
