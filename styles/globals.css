@@ -157,3 +157,47 @@ p{
   font-family: 'Source Code Pro', 'Montserrat';
   font-size: 24px;
 }
+.Imagens{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.textos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.divaux1{
+  margin-left: 32px;
+}
+.divaux2{
+  margin-right: 32px;
+}
+.divaux1 img{
+  width: 200px;
+  height: 200px;
+}
+.divaux3 p{
+  text-align: center;
+  font-size: 24px;
+}
+
+
+
+@media (max-width: 800px) {
+  .textos{
+    flex-direction: column;
+  }
+  .divaux1{
+    margin-left: 0px;
+  }
+  .divaux2{
+    margin-right: 0px;
+  }
+}
